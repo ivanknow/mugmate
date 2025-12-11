@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #2B3035;
+    color: #DEE2CA;
+}
+
+p{
+    color: #9DA0A4;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+form > h1 {
+    font-size: 32px;
+}
+
+form {
+    height: 413px;
+    width: 298px;
+    /* display: block; */
+    margin: 48px 0;
+}
+
+.form-floating label {
+    color: #9DA0A4;
+}
+
+
+.email {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom: 0.5px;
+    margin-top: 15px;
+}
+
+.senha {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-top: 0.5px;
+}
+
+.form-control {
+    background-color: #212529;
+    border: solid 1px #495057;
+    /* border: none;
+    outline: none;
+    box-shadow: none; */
+    /* remove sombra padrão do Bootstrap */
+}
+
+.form-control:focus {
+    background-color: #212529;
+}
+
+/* .form-floating+.form-floating .form-control {
+    border-top: none;
+} */
+
+.form-check input{
+    background-color: #212529;
+    border: 1px solid #495057;
+}
+
+.form-check{
+    margin-top: 20px;
+}
+
+
+
+.btn{
+    width: 100%;
+}
+
