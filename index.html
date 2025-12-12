@@ -29,15 +29,38 @@
                 <input type="checkbox" class="form-check-input" id="exampleCheck1">
                 <label class="form-check-label" for="exampleCheck1">Lembrar de mim</label>
             </div>
-            <button type="submit" class="btn btn-primary">Entrar</button>
+            <button id="login-button" type="submit" class="btn btn-primary">Entrar</button>
             <p class="mt-5 mb-3 ">© 2017-2025</p>
         </form>
     </main>
 
     <script src="js/index.js"></script>
+    <script
+			  src="https://code.jquery.com/jquery-3.7.1.min.js"
+			  integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+			  crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
+
+        <script>
+//passo 1: criei uma função
+//passo 2: criei um ouvinte (listener no botão para o evento click "Add Event Listener")
+//passo 3: passei o nome da  função "clicouNoBotao" como parametro para o evento
+//resumindo: quando clicar, chama essa função
+
+//desafio: ao clicar no botão, mostrar no alert nome passado no login
+//passo 1: dentro da função pega valor que ta escrito e guarda numa variavel 
+//var login =  document.getElementById('id do campo')
+//passo 2: alert(login)  
+            function clicouNoBotao(event){
+                alert("ta porra vitin");
+
+            }
+
+            document.getElementById("login-button").addEventListener("click",clicouNoBotao)
+            
+        </script>
 </body>
 
 </html>
